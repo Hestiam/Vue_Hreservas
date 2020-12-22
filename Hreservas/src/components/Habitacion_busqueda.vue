@@ -34,7 +34,7 @@ export default {
       var self = this;
       console.log("la habitacion es:" + self.habitacion.habitacion_id);
       var ruta =
-        "http://127.0.0.1:8000/habitacion/" + self.habitacion.habitacion_id;
+        "https://hreservas.herokuapp.com/habitacion/" + self.habitacion.habitacion_id;
       console.log("La ruta es:" + ruta);
       axios
         .get(ruta)

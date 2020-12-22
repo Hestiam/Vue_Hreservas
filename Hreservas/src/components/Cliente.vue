@@ -33,7 +33,7 @@ export default {
       var self = this;
       console.log("la habitacion es:" + self.cliente.cedula);
       var ruta =
-        "http://127.0.0.1:8000/clientes/nuevo_cliente" ;
+        "hreservas.herokuapp.com/clientes/nuevo_cliente" ;
       console.log("La ruta es:" + ruta);
       axios
         .post(ruta,self.cliente)
